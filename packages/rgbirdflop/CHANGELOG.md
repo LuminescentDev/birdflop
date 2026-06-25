@@ -1,5 +1,64 @@
 # Changelog
 
+## [0.1.19](https://github.com/LuminescentDev/birdflop/compare/v0.1.18...v0.1.19) (2026-06-25)
+
+
+### Features
+
+* Add CIELAB color space utilities and gradient classes for CIELAB and LCh(ab) ([52de4b7](https://github.com/LuminescentDev/birdflop/commit/52de4b78c2e3734dd09772898307fc5e3a71af81))
+* Add HSL color space utilities and integrate HSL gradients into ColorGradient ([4d87b6f](https://github.com/LuminescentDev/birdflop/commit/4d87b6f3939546258a9121c73a650d68b39cd1b4))
+* add invertRgbColor function ([1e25f81](https://github.com/LuminescentDev/birdflop/commit/1e25f8171b93af2a94938ad0de2e6e5dc582f102))
+* add OKLAB color space utilities and refactor vectorize to use them ([fa6d937](https://github.com/LuminescentDev/birdflop/commit/fa6d9370a4c576c14bccac669f23f7f223df16ad))
+* Add showAllGradients context and integrate gradient type selection in RGB and animation components ([e0fa97a](https://github.com/LuminescentDev/birdflop/commit/e0fa97a3b2c4310262bf55ea9b775be5198c7d68))
+* enhance shadow color handling by adding opacity support and updating related components ([b1d9b23](https://github.com/LuminescentDev/birdflop/commit/b1d9b2339536328cd472c0bd692ac39f81a69b2f))
+* enhance shadow segment handling by adding opacity support in buildShadowSegments and buildShadowContent ([d34e65a](https://github.com/LuminescentDev/birdflop/commit/d34e65af36b1eeb9b5d822ee05569e739dc884ca))
+* implement base gradient classes and refactor existing gradient types to minimize duplicate code ([c915f2d](https://github.com/LuminescentDev/birdflop/commit/c915f2d1a2525d309b2e52ac8ffc2519ae6f7c5d))
+* Implement gradient classes for RGB, OKLAB, and OKLCh color spaces ([74d0b6d](https://github.com/LuminescentDev/birdflop/commit/74d0b6debc5f02fad7ad75e4ec2d8cf9ed2f6873))
+* initialize rgbirdflop package with core functionality ([1726472](https://github.com/LuminescentDev/birdflop/commit/1726472e15bc9cf1d886241500ef8d3ea4910f19))
+* integrate rgbirdflop package and update related components ([a24ef43](https://github.com/LuminescentDev/birdflop/commit/a24ef430ca03207bf9b480be168feb1c27e31705))
+* refactor color handling to use RGBColorStop type and improve opacity management in gradients ([0bdbf24](https://github.com/LuminescentDev/birdflop/commit/0bdbf24e21620eab8bb987addd1ee7d0d3658818))
+
+
+### Bug Fixes
+
+* add repository field to package.json ([bd95fff](https://github.com/LuminescentDev/birdflop/commit/bd95fff9b644ecafff1d6c9eda0e8c149c63bd0d))
+* bruh why do you hate me npm ([2caf92e](https://github.com/LuminescentDev/birdflop/commit/2caf92e3b73bcd9f0612d2e38f606e96dfe4e870))
+* handle optional shadow colors in generateOutput function ([69b9713](https://github.com/LuminescentDev/birdflop/commit/69b971319ce8e5165421af1b53f2b2a9a007e81f))
+* handle potential undefined rgb values in BaseGradient class ([f259f0e](https://github.com/LuminescentDev/birdflop/commit/f259f0e37de7fca1bc533126fab1a693651d30f4))
+* i hate you npm ([715c42b](https://github.com/LuminescentDev/birdflop/commit/715c42bcc9a5b3bffd484aaee95d9a505ce455de))
+* improve color position calculation for disperseColors and getOutput functions ([b1feab6](https://github.com/LuminescentDev/birdflop/commit/b1feab641ef70d1d750c2bf554bcd3e6b0b9deee))
+* make typescript shut up ([f31d300](https://github.com/LuminescentDev/birdflop/commit/f31d300297e96b5c53642a8c058d803ca08a5a6a))
+* pls work ([9e44336](https://github.com/LuminescentDev/birdflop/commit/9e44336a7769a5e5d578e735e3d6a16f2b483806))
+* round color positions to three decimal places for consistency ([b11040f](https://github.com/LuminescentDev/birdflop/commit/b11040f6e20f1fc72ea6ad876a1cb5dc7e33bfd4))
+* test publish ([dbf3257](https://github.com/LuminescentDev/birdflop/commit/dbf325770bd5608074db5060ba873732e08418b0))
+* totally a typo ([a26e77c](https://github.com/LuminescentDev/birdflop/commit/a26e77cfdee47c74979d42db47772bc38140ae7e))
+* trigger ci ([fac5159](https://github.com/LuminescentDev/birdflop/commit/fac5159ab8d2076bd90cd82460bc7e606754d0a1))
+* trigger ci attempt [#7](https://github.com/LuminescentDev/birdflop/issues/7) ([e8f7559](https://github.com/LuminescentDev/birdflop/commit/e8f7559723d1252a83c49363802fe7e78093995e))
+* update README and documentation for RGBirdflop NPM package usage examples and formatting ([ca5d3d3](https://github.com/LuminescentDev/birdflop/commit/ca5d3d3e87c7b794abb85d7d506ec5bf692705ae))
+* update usage example in README ([d403b13](https://github.com/LuminescentDev/birdflop/commit/d403b13374c9636d5a59134152fc19165c93ce1f))
+* update usage example in README with valid RGB values ([8da36ad](https://github.com/LuminescentDev/birdflop/commit/8da36adbae7022d747ec53ad7f9ce8cdbc5471aa))
+* update usage example in README.md ([3c847f7](https://github.com/LuminescentDev/birdflop/commit/3c847f78d768f03687a0ddb624c35a5825435026))
+* update version from 0.1.0 to 0.2.0 in package.json ([9338e58](https://github.com/LuminescentDev/birdflop/commit/9338e58cde69958dc7aa0285b9797101fc1e8a09))
+* wasnt a typo ([d4e3a61](https://github.com/LuminescentDev/birdflop/commit/d4e3a61c63f6e8494e8329d0e5ce2c8a0825bdfb))
+
+
+### Code Refactoring
+
+* add safety checks for empty colors array ([0055aac](https://github.com/LuminescentDev/birdflop/commit/0055aac9941d01d3fa60a887d95a53153e56b65d))
+* enhance documentation for RGBColorStop type to clarify properties ([152bf1b](https://github.com/LuminescentDev/birdflop/commit/152bf1b2e6bda44687af978b18c88c412e99b544))
+* remove registry URL from package.json and update release workflow ([5d0a59a](https://github.com/LuminescentDev/birdflop/commit/5d0a59abfc5c4e51f7213c5bbee0860bbe902bd9))
+* streamline color handling logic and remove unused shadow color references ([743bdf6](https://github.com/LuminescentDev/birdflop/commit/743bdf69fdee15eb7b8b34c6cf17c6235791abe8))
+* update gradient color handling to ensure RGB values are correctly sliced ([686e99b](https://github.com/LuminescentDev/birdflop/commit/686e99be2e1770c852004e1c0aacfa29c9c78af9))
+* update release workflow and improve README for RGBirdflop package ([14158e8](https://github.com/LuminescentDev/birdflop/commit/14158e83e38bd37005662fa8a51759a713212ab6))
+* use getshadowcolor for color list ([f6ae60f](https://github.com/LuminescentDev/birdflop/commit/f6ae60f611cd69ecd9dce6f346bcec24e45f8bef))
+
+
+### Documentation
+
+* update import statement in usage example for RGBirdflop package ([fa41541](https://github.com/LuminescentDev/birdflop/commit/fa415418bf1d6971cc0c05bd7b5a871178457d3b))
+* Update README title for RGBirdflop package ([be57c8b](https://github.com/LuminescentDev/birdflop/commit/be57c8b1c146d40f4957004d68dde750280cc985))
+* update usage example in README for RGBirdflop package ([ef0f9e8](https://github.com/LuminescentDev/birdflop/commit/ef0f9e8657ab6955762c7dad13126e1601879248))
+
 ## [0.1.18](https://github.com/birdflop/web/compare/v0.1.17...v0.1.18) (2026-05-22)
 
 
